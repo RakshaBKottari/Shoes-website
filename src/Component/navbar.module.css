@@ -1,0 +1,10 @@
+.navstyle{
+    display:flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    justify-content: space-between;
+    padding: 10px;
+}
+.test{
+    background-color: blueviolet;
+}
