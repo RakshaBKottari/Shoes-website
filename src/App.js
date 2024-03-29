@@ -1,9 +1,9 @@
-
-import Navbar from './Component/navbar';
+import React from 'react';
+import Navbar from './pages/home';
 function App() {
   return (
     <div>
-  <Navbar/>
+      <Navbar />
     </div>
   );
 }

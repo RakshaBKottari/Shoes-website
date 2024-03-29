@@ -5,15 +5,16 @@ function home() {
   return (
     <div>
       <nav className={navcss.navstyle}> 
+        <div><img src={Image} alt='logo'/></div>
         
-        <img src={Image} alt='logo'/>
         <ul>
           <li href='#'>MENU</li>
           <li href='#'>LOCATION</li>
           <li href='#'>ABOUT</li>
           <li href='#'>CONTACT</li>
         </ul>
-        <button>Login</button>
+        <div> <button>Login</button></div>
+       
       
       </nav>
     </div>
